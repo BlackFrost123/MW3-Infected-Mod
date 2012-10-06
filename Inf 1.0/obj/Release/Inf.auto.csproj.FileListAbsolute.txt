@@ -1,0 +1,7 @@
+C:\Users\TPawnzer\Documents\Visual Studio 2010\Projects\C#\Inf.auto\Inf.auto\bin\Release\Inf.auto.dll
+C:\Users\TPawnzer\Documents\Visual Studio 2010\Projects\C#\Inf.auto\Inf.auto\bin\Release\Inf.auto.pdb
+C:\Users\TPawnzer\Documents\Visual Studio 2010\Projects\C#\Inf.auto\Inf.auto\obj\Release\ResolveAssemblyReference.cache
+C:\Users\TPawnzer\Documents\Visual Studio 2010\Projects\C#\Inf.auto\Inf.auto\obj\Release\Inf.auto.dll
+C:\Users\TPawnzer\Documents\Visual Studio 2010\Projects\C#\Inf.auto\Inf.auto\obj\Release\Inf.auto.pdb
+C:\Users\TPawnzer\Gamez\IW5M\dedi\scripts\Inf.auto.dll
+C:\Users\TPawnzer\Gamez\IW5M\dedi\scripts\Inf.auto.pdb
