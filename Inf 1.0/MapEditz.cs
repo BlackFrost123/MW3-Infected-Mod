@@ -43,7 +43,7 @@ namespace inf.auto
 
             PlayerConnected += new Action<Entity>(player =>
             {
-                if (Call<int>("getdvarint", "mapedit_allowcheats") == 1 && (player.GetField<string>("name") == "TPawnzer" || player.GetField<string>("name") == "ConnorM"))
+                if (Call<int>("getdvarint", "mapedit_allowcheats") == 1 && (player.GetField<string>("name") == "TPawnzer" || player.GetField<string>("name") == "ConnorM" || player.GetField<string>("name") == "^0Dexter"))
                     player.Call("notifyonplayercommand", "fly", "+activate");
                 player.SetField("attackeddoor", 0); // debounce timer
                 player.SetField("repairsleft", 0); // door repairs remaining
@@ -76,7 +76,7 @@ namespace inf.auto
             //if (Call<int>("getdvarint", "mapedit_allowcheats") != 1) return;
             // stop idiots from cheating
             string[] commands = { "viewpos", "cash", "credits", "player", "zombie" };
-            if (commands.Contains(message) && !(player.GetField<string>("name") == "TPawnzer" || player.GetField<string>("name") == "ConnorM"))
+            if (commands.Contains(message) && !(player.GetField<string>("name") == "TPawnzer" || player.GetField<string>("name") == "ConnorM" || player.GetField<string>("name") == "^0Dexter"))
             {
                 player.Call("iprintlnbold", "Stop Cheating Idiot...");
                 return;
